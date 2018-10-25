@@ -1,0 +1,3 @@
+C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/read_webcam.dir
+C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/ZERO_CHECK.dir

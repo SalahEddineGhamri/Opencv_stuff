@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Utilisateur\Documents\Opencv_playground\RedEyeRemover\build\CMakeFiles\9841c1ad0bce2334df102ff550f3c88b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5F9951FD-A8CA-3232-B231-9C0DCC85306F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

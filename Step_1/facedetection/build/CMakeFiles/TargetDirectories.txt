@@ -1,0 +1,3 @@
+C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/facedetection/build/CMakeFiles/facedetection.dir
+C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/facedetection/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/facedetection/build/CMakeFiles/ZERO_CHECK.dir

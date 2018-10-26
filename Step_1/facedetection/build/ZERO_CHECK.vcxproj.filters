@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\facedetection\build\CMakeFiles\6bb55ef4e73bafc11ea017c0ba576709\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70F900AE-7244-3791-AB5F-B14EE1E22345}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

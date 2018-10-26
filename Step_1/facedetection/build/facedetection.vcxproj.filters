@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\facedetection\facedetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\facedetection\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3FD82EAF-9A69-30AF-BE6D-CE525D7C91CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

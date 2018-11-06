@@ -5,6 +5,7 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/video.hpp>
 #include <opencv2/video/background_segm.hpp>
+#include <opencv2/videoio.hpp>
 //C++ includes
 #include <iostream>
 #include <string>
@@ -21,7 +22,7 @@ Ptr<BackgroundSubtractor> pMOG2; //Pointer for MOG2 Background substractor objec
 char keyboard;
 
 //Implemetation of functions
-void processVideo(char* path);
+void processVideo(char* fileName);
 void processImages(string path);
 
 void help()
@@ -69,8 +70,52 @@ int main(int argc, char* argv[]){
 }
 
 //functions definitions
-void processVideo(char* path){
-    cout << path << endl;
+void processVideo(char* fileName){
+    // Create the capture object 
+    VideoCapture capture(fileName);
+    if(!capture.isOpened()){
+        //error in opening the video input
+        cerr << "Unable to open video file: " << fileName << endl;
+        exit(EXIT_FAILURE);
+    }
+    while( keyboard != 'q' && keyboard != 27 ){
+        if(!capture.read(frame)) {
+            cerr << "Unable to read next frame." << endl;
+            cerr << "Exiting..." << endl;
+            exit(EXIT_FAILURE);
+        }
+        //update the guassian model mask
+        // apply( input, output)
+        pMOG2 -> apply(frame, fgMaskMOG2);
+
+        /*
+        // draw a rectangle
+        rectangle(frame, cv::Point(10, 2), cv::Point(100,20), cv::Scalar(255,255,255), -1);
+
+        // get frame number and write it on frame
+        stringstream ss;
+        ss << capture.get(CAP_PROP_POS_FRAMES);
+        string frameNumberString = ss.str();
+
+        // write a text on the frame
+        putText(frame, frameNumberString.c_str(), cv::Point(15, 15), FONT_HERSHEY_SIMPLEX, 0.5 , cv::Scalar(0,0,0));
+        */
+
+        //insert captured frames into frame object
+        capture >> frame;
+        //get the input from the keyboard
+        keyboard = (char)waitKey( 30 );
+        //check is frame is empty
+        if(frame.empty()){
+            cout << "The end or Empty frame detected <!> ";
+            break;
+        }
+        imshow("frame", frame);
+        imshow("fgmaskMOG2", fgMaskMOG2);
+        //get the input from the keyboard
+    }
+    capture.release();
+
 }
 
 void processImages(string path){

@@ -88,9 +88,11 @@ void processVideo(char* fileName){
         // apply( input, output)
         pMOG2 -> apply(frame, fgMaskMOG2);
 
-        /*
+        Point p1(10, 2);
+        Point p2(100, 20);
+        Point p3(15, 15);
         // draw a rectangle
-        rectangle(frame, cv::Point(10, 2), cv::Point(100,20), cv::Scalar(255,255,255), -1);
+        rectangle(frame, p1, p2, cv::Scalar(255,255,255), -1);
 
         // get frame number and write it on frame
         stringstream ss;
@@ -98,14 +100,12 @@ void processVideo(char* fileName){
         string frameNumberString = ss.str();
 
         // write a text on the frame
-        putText(frame, frameNumberString.c_str(), cv::Point(15, 15), FONT_HERSHEY_SIMPLEX, 0.5 , cv::Scalar(0,0,0));
-        */
+        putText(frame, frameNumberString.c_str(), p3, FONT_HERSHEY_SIMPLEX, 0.5 , cv::Scalar(0,0,0));
 
-        //insert captured frames into frame object
-        capture >> frame;
         //get the input from the keyboard
         keyboard = (char)waitKey( 30 );
         //check is frame is empty
+
         if(frame.empty()){
             cout << "The end or Empty frame detected <!> ";
             break;
@@ -119,5 +119,5 @@ void processVideo(char* fileName){
 }
 
 void processImages(string path){
-    cout << path << endl;
+    cout << "This option is not created yet." << endl;
 }

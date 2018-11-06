@@ -1,2 +1,2 @@
 # Opencv_stuff
-stuff for opencv library
+Stuffs that i worked on using opencv library

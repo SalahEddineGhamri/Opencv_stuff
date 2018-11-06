@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits r�serv�s.
 
-La g�n�ration a d�marr� 25/10/2018 22:29:24.
+La g�n�ration a d�marr� 06/11/2018 12:52:58.
 Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" sur le noud 1 (cibles par d�faut).
 PrepareForBuild:
   Cr�ation du r�pertoire "Debug\".
@@ -35,7 +35,7 @@ La g�n�ration a r�ussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps �coul� 00:00:01.09
+Temps �coul� 00:00:01.07
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits r�serv�s.
 
-La g�n�ration a d�marr� 25/10/2018 22:29:26.
+La g�n�ration a d�marr� 06/11/2018 12:52:59.
 Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par d�faut).
 PrepareForBuild:
   Cr�ation du r�pertoire "Debug\".
@@ -80,7 +80,7 @@ La g�n�ration a r�ussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps �coul� 00:00:00.79
+Temps �coul� 00:00:01.15
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,77 +92,77 @@ The CXX compiler identification is MSVC, found in "C:/Users/Utilisateur/Document
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_45947.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2f1cf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 25/10/2018 22:29:27.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_45947.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 06/11/2018 12:53:01.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_2f1cf.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_45947.dir\Debug\".
+  Création du répertoire "cmTC_2f1cf.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_45947.dir\Debug\cmTC_45947.tlog\".
+  Création du répertoire "cmTC_2f1cf.dir\Debug\cmTC_2f1cf.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_45947.dir\Debug\cmTC_45947.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_2f1cf.dir\Debug\cmTC_2f1cf.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45947.dir\Debug\\" /Fd"cmTC_45947.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f1cf.dir\Debug\\" /Fd"cmTC_2f1cf.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCCompiler.c
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45947.dir\Debug\\" /Fd"cmTC_45947.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f1cf.dir\Debug\\" /Fd"cmTC_2f1cf.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCCompiler.c
   testCCompiler.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_45947.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_45947.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_45947.lib" /MACHINE:X64  /machine:x64 cmTC_45947.dir\Debug\testCCompiler.obj
-  cmTC_45947.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_45947.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_2f1cf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_2f1cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_2f1cf.lib" /MACHINE:X64  /machine:x64 cmTC_2f1cf.dir\Debug\testCCompiler.obj
+  cmTC_2f1cf.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_2f1cf.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_45947.dir\Debug\cmTC_45947.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_45947.dir\Debug\cmTC_45947.tlog\cmTC_45947.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_45947.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_2f1cf.dir\Debug\cmTC_2f1cf.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_2f1cf.dir\Debug\cmTC_2f1cf.tlog\cmTC_2f1cf.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_2f1cf.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.87
+Temps écoulé 00:00:01.17
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_52e10.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_04140.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 25/10/2018 22:29:28.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_52e10.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 06/11/2018 12:53:02.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_04140.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_52e10.dir\Debug\".
+  Création du répertoire "cmTC_04140.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_52e10.dir\Debug\cmTC_52e10.tlog\".
+  Création du répertoire "cmTC_04140.dir\Debug\cmTC_04140.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_52e10.dir\Debug\cmTC_52e10.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_04140.dir\Debug\cmTC_04140.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52e10.dir\Debug\\" /Fd"cmTC_52e10.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04140.dir\Debug\\" /Fd"cmTC_04140.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52e10.dir\Debug\\" /Fd"cmTC_52e10.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04140.dir\Debug\\" /Fd"cmTC_04140.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   CMakeCCompilerABI.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_52e10.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_52e10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_52e10.lib" /MACHINE:X64  /machine:x64 cmTC_52e10.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_52e10.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_52e10.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_04140.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_04140.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_04140.lib" /MACHINE:X64  /machine:x64 cmTC_04140.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_04140.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_04140.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_52e10.dir\Debug\cmTC_52e10.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_52e10.dir\Debug\cmTC_52e10.tlog\cmTC_52e10.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_52e10.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_04140.dir\Debug\cmTC_04140.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_04140.dir\Debug\cmTC_04140.tlog\cmTC_04140.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_04140.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.87
+Temps écoulé 00:00:01.14
 
 
 
@@ -170,39 +170,39 @@ Temps écoulé 00:00:00.87
 Detecting C [] compiler features compiled with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_35b01.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_73732.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 25/10/2018 22:29:29.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_35b01.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 06/11/2018 12:53:04.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_73732.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_35b01.dir\Debug\".
+  Création du répertoire "cmTC_73732.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_35b01.dir\Debug\cmTC_35b01.tlog\".
+  Création du répertoire "cmTC_73732.dir\Debug\cmTC_73732.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_35b01.dir\Debug\cmTC_35b01.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_73732.dir\Debug\cmTC_73732.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35b01.dir\Debug\\" /Fd"cmTC_35b01.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.c
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73732.dir\Debug\\" /Fd"cmTC_73732.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.c
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35b01.dir\Debug\\" /Fd"cmTC_35b01.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73732.dir\Debug\\" /Fd"cmTC_73732.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.c
   feature_tests.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_35b01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_35b01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_35b01.lib" /MACHINE:X64  /machine:x64 cmTC_35b01.dir\Debug\feature_tests.obj
-  cmTC_35b01.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_35b01.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_73732.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_73732.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_73732.lib" /MACHINE:X64  /machine:x64 cmTC_73732.dir\Debug\feature_tests.obj
+  cmTC_73732.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_73732.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_35b01.dir\Debug\cmTC_35b01.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_35b01.dir\Debug\cmTC_35b01.tlog\cmTC_35b01.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_35b01.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_73732.dir\Debug\cmTC_73732.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_73732.dir\Debug\cmTC_73732.tlog\cmTC_73732.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_73732.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.88
+Temps écoulé 00:00:01.19
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -210,77 +210,77 @@ Temps écoulé 00:00:00.88
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8102b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7c0a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 25/10/2018 22:29:30.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_8102b.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 06/11/2018 12:53:05.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_7c0a9.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_8102b.dir\Debug\".
+  Création du répertoire "cmTC_7c0a9.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_8102b.dir\Debug\cmTC_8102b.tlog\".
+  Création du répertoire "cmTC_7c0a9.dir\Debug\cmTC_7c0a9.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_8102b.dir\Debug\cmTC_8102b.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_7c0a9.dir\Debug\cmTC_7c0a9.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8102b.dir\Debug\\" /Fd"cmTC_8102b.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c0a9.dir\Debug\\" /Fd"cmTC_7c0a9.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8102b.dir\Debug\\" /Fd"cmTC_8102b.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c0a9.dir\Debug\\" /Fd"cmTC_7c0a9.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   testCXXCompiler.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_8102b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_8102b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_8102b.lib" /MACHINE:X64  /machine:x64 cmTC_8102b.dir\Debug\testCXXCompiler.obj
-  cmTC_8102b.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_8102b.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_7c0a9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_7c0a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_7c0a9.lib" /MACHINE:X64  /machine:x64 cmTC_7c0a9.dir\Debug\testCXXCompiler.obj
+  cmTC_7c0a9.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_7c0a9.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_8102b.dir\Debug\cmTC_8102b.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_8102b.dir\Debug\cmTC_8102b.tlog\cmTC_8102b.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_8102b.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_7c0a9.dir\Debug\cmTC_7c0a9.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_7c0a9.dir\Debug\cmTC_7c0a9.tlog\cmTC_7c0a9.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_7c0a9.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.91
+Temps écoulé 00:00:01.18
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3ac49.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6ba0c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 25/10/2018 22:29:31.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_3ac49.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 06/11/2018 12:53:07.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_6ba0c.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_3ac49.dir\Debug\".
+  Création du répertoire "cmTC_6ba0c.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_3ac49.dir\Debug\cmTC_3ac49.tlog\".
+  Création du répertoire "cmTC_6ba0c.dir\Debug\cmTC_6ba0c.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_3ac49.dir\Debug\cmTC_3ac49.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_6ba0c.dir\Debug\cmTC_6ba0c.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ac49.dir\Debug\\" /Fd"cmTC_3ac49.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ba0c.dir\Debug\\" /Fd"cmTC_6ba0c.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ac49.dir\Debug\\" /Fd"cmTC_3ac49.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ba0c.dir\Debug\\" /Fd"cmTC_6ba0c.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   CMakeCXXCompilerABI.cpp
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_3ac49.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_3ac49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_3ac49.lib" /MACHINE:X64  /machine:x64 cmTC_3ac49.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_3ac49.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_3ac49.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_6ba0c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_6ba0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_6ba0c.lib" /MACHINE:X64  /machine:x64 cmTC_6ba0c.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_6ba0c.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_6ba0c.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_3ac49.dir\Debug\cmTC_3ac49.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_3ac49.dir\Debug\cmTC_3ac49.tlog\cmTC_3ac49.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_3ac49.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_6ba0c.dir\Debug\cmTC_6ba0c.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_6ba0c.dir\Debug\cmTC_6ba0c.tlog\cmTC_6ba0c.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_6ba0c.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.92
+Temps écoulé 00:00:01.20
 
 
 
@@ -288,39 +288,39 @@ Temps écoulé 00:00:00.92
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_dd035.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f7cdc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 25/10/2018 22:29:33.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_dd035.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 06/11/2018 12:53:08.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_f7cdc.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_dd035.dir\Debug\".
+  Création du répertoire "cmTC_f7cdc.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_dd035.dir\Debug\cmTC_dd035.tlog\".
+  Création du répertoire "cmTC_f7cdc.dir\Debug\cmTC_f7cdc.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_dd035.dir\Debug\cmTC_dd035.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_f7cdc.dir\Debug\cmTC_f7cdc.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd035.dir\Debug\\" /Fd"cmTC_dd035.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f7cdc.dir\Debug\\" /Fd"cmTC_f7cdc.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.cxx
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd035.dir\Debug\\" /Fd"cmTC_dd035.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f7cdc.dir\Debug\\" /Fd"cmTC_f7cdc.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\feature_tests.cxx
   feature_tests.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_dd035.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_dd035.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_dd035.lib" /MACHINE:X64  /machine:x64 cmTC_dd035.dir\Debug\feature_tests.obj
-  cmTC_dd035.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_dd035.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_f7cdc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_f7cdc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/Step_1/build/CMakeFiles/CMakeTmp/Debug/cmTC_f7cdc.lib" /MACHINE:X64  /machine:x64 cmTC_f7cdc.dir\Debug\feature_tests.obj
+  cmTC_f7cdc.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\Debug\cmTC_f7cdc.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_dd035.dir\Debug\cmTC_dd035.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_dd035.dir\Debug\cmTC_dd035.tlog\cmTC_dd035.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_dd035.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_f7cdc.dir\Debug\cmTC_f7cdc.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_f7cdc.dir\Debug\cmTC_f7cdc.tlog\cmTC_f7cdc.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\Step_1\build\CMakeFiles\CMakeTmp\cmTC_f7cdc.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.91
+Temps écoulé 00:00:01.12
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

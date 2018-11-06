@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( BackSubstraction )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( BackSubstraction back_substraction.cpp )
+target_link_libraries( BackSubstraction ${OpenCV_LIBS} )

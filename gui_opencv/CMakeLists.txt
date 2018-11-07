@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( GUI_CV )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( gui_cv_app main.cpp gui_cv.cpp gui_cv.hpp )
+target_link_libraries( gui_cv_app ${OpenCV_LIBS} )

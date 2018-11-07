@@ -29,7 +29,7 @@ void help()
 {
     cout
     << "--------------------------------------------------------------------------" << endl
-    << "This program shows how to use background subtraction methods provided by "  << endl
+    << "This program implements background subtraction method provided by "  << endl
     << " OpenCV."                                                                   << endl
     << " Authon : Salah Eddine Ghamri"                                              << endl;
 }

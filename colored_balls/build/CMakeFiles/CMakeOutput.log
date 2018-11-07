@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits r�serv�s.
 
-La g�n�ration a d�marr� 07/11/2018 17:24:24.
+La g�n�ration a d�marr� 07/11/2018 20:30:36.
 Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\3.12.3\CompilerIdC\CompilerIdC.vcxproj" sur le noud 1 (cibles par d�faut).
 PrepareForBuild:
   Cr�ation du r�pertoire "Debug\".
@@ -35,7 +35,7 @@ La g�n�ration a r�ussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps �coul� 00:00:01.22
+Temps �coul� 00:00:01.09
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits r�serv�s.
 
-La g�n�ration a d�marr� 07/11/2018 17:24:25.
+La g�n�ration a d�marr� 07/11/2018 20:30:37.
 Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\3.12.3\CompilerIdCXX\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par d�faut).
 PrepareForBuild:
   Cr�ation du r�pertoire "Debug\".
@@ -80,7 +80,7 @@ La g�n�ration a r�ussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps �coul� 00:00:00.95
+Temps �coul� 00:00:01.13
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,77 +92,77 @@ The CXX compiler identification is MSVC, found in "C:/Users/Utilisateur/Document
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_270b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a2e45.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 07/11/2018 17:24:27.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_270b6.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 07/11/2018 20:30:39.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_a2e45.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_270b6.dir\Debug\".
+  Création du répertoire "cmTC_a2e45.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_270b6.dir\Debug\cmTC_270b6.tlog\".
+  Création du répertoire "cmTC_a2e45.dir\Debug\cmTC_a2e45.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_270b6.dir\Debug\cmTC_270b6.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_a2e45.dir\Debug\cmTC_a2e45.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_270b6.dir\Debug\\" /Fd"cmTC_270b6.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2e45.dir\Debug\\" /Fd"cmTC_a2e45.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCCompiler.c
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_270b6.dir\Debug\\" /Fd"cmTC_270b6.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2e45.dir\Debug\\" /Fd"cmTC_a2e45.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCCompiler.c
   testCCompiler.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_270b6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_270b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_270b6.lib" /MACHINE:X64  /machine:x64 cmTC_270b6.dir\Debug\testCCompiler.obj
-  cmTC_270b6.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_270b6.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_a2e45.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_a2e45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_a2e45.lib" /MACHINE:X64  /machine:x64 cmTC_a2e45.dir\Debug\testCCompiler.obj
+  cmTC_a2e45.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_a2e45.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_270b6.dir\Debug\cmTC_270b6.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_270b6.dir\Debug\cmTC_270b6.tlog\cmTC_270b6.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_270b6.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_a2e45.dir\Debug\cmTC_a2e45.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_a2e45.dir\Debug\cmTC_a2e45.tlog\cmTC_a2e45.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_a2e45.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:01.04
+Temps écoulé 00:00:01.07
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_df789.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_092f4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 07/11/2018 17:24:28.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_df789.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 07/11/2018 20:30:41.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_092f4.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_df789.dir\Debug\".
+  Création du répertoire "cmTC_092f4.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_df789.dir\Debug\cmTC_df789.tlog\".
+  Création du répertoire "cmTC_092f4.dir\Debug\cmTC_092f4.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_df789.dir\Debug\cmTC_df789.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_092f4.dir\Debug\cmTC_092f4.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df789.dir\Debug\\" /Fd"cmTC_df789.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_092f4.dir\Debug\\" /Fd"cmTC_092f4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df789.dir\Debug\\" /Fd"cmTC_df789.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_092f4.dir\Debug\\" /Fd"cmTC_092f4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   CMakeCCompilerABI.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_df789.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_df789.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_df789.lib" /MACHINE:X64  /machine:x64 cmTC_df789.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_df789.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_df789.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_092f4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_092f4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_092f4.lib" /MACHINE:X64  /machine:x64 cmTC_092f4.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_092f4.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_092f4.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_df789.dir\Debug\cmTC_df789.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_df789.dir\Debug\cmTC_df789.tlog\cmTC_df789.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_df789.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_092f4.dir\Debug\cmTC_092f4.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_092f4.dir\Debug\cmTC_092f4.tlog\cmTC_092f4.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_092f4.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:01.10
+Temps écoulé 00:00:01.22
 
 
 
@@ -170,39 +170,39 @@ Temps écoulé 00:00:01.10
 Detecting C [] compiler features compiled with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fc3d4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_0e8b2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 07/11/2018 17:24:29.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_fc3d4.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 07/11/2018 20:30:42.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_0e8b2.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_fc3d4.dir\Debug\".
+  Création du répertoire "cmTC_0e8b2.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_fc3d4.dir\Debug\cmTC_fc3d4.tlog\".
+  Création du répertoire "cmTC_0e8b2.dir\Debug\cmTC_0e8b2.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_fc3d4.dir\Debug\cmTC_fc3d4.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_0e8b2.dir\Debug\cmTC_0e8b2.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc3d4.dir\Debug\\" /Fd"cmTC_fc3d4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.c
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e8b2.dir\Debug\\" /Fd"cmTC_0e8b2.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.c
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc3d4.dir\Debug\\" /Fd"cmTC_fc3d4.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e8b2.dir\Debug\\" /Fd"cmTC_0e8b2.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.c
   feature_tests.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc3d4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc3d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc3d4.lib" /MACHINE:X64  /machine:x64 cmTC_fc3d4.dir\Debug\feature_tests.obj
-  cmTC_fc3d4.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc3d4.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_0e8b2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_0e8b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_0e8b2.lib" /MACHINE:X64  /machine:x64 cmTC_0e8b2.dir\Debug\feature_tests.obj
+  cmTC_0e8b2.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_0e8b2.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_fc3d4.dir\Debug\cmTC_fc3d4.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_fc3d4.dir\Debug\cmTC_fc3d4.tlog\cmTC_fc3d4.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_fc3d4.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_0e8b2.dir\Debug\cmTC_0e8b2.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_0e8b2.dir\Debug\cmTC_0e8b2.tlog\cmTC_0e8b2.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_0e8b2.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:01.17
+Temps écoulé 00:00:01.08
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -210,71 +210,33 @@ Temps écoulé 00:00:01.17
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_634de.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_949c2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 07/11/2018 17:24:31.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_634de.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 07/11/2018 20:30:44.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_949c2.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_634de.dir\Debug\".
+  Création du répertoire "cmTC_949c2.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_634de.dir\Debug\cmTC_634de.tlog\".
+  Création du répertoire "cmTC_949c2.dir\Debug\cmTC_949c2.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_634de.dir\Debug\cmTC_634de.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_949c2.dir\Debug\cmTC_949c2.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_634de.dir\Debug\\" /Fd"cmTC_634de.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_949c2.dir\Debug\\" /Fd"cmTC_949c2.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_634de.dir\Debug\\" /Fd"cmTC_634de.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_949c2.dir\Debug\\" /Fd"cmTC_949c2.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   testCXXCompiler.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_634de.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_634de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_634de.lib" /MACHINE:X64  /machine:x64 cmTC_634de.dir\Debug\testCXXCompiler.obj
-  cmTC_634de.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_634de.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_949c2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_949c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_949c2.lib" /MACHINE:X64  /machine:x64 cmTC_949c2.dir\Debug\testCXXCompiler.obj
+  cmTC_949c2.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_949c2.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_634de.dir\Debug\cmTC_634de.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_634de.dir\Debug\cmTC_634de.tlog\cmTC_634de.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_634de.vcxproj" terminée (cibles par défaut).
-
-La génération a réussi.
-    0 Avertissement(s)
-    0 Erreur(s)
-
-Temps écoulé 00:00:01.14
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d46d4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
-Copyright (C) Microsoft Corporation. Tous droits réservés.
-
-La génération a démarré 07/11/2018 17:24:32.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_d46d4.vcxproj" sur le noud 1 (cibles par défaut).
-PrepareForBuild:
-  Création du répertoire "cmTC_d46d4.dir\Debug\".
-  Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_d46d4.dir\Debug\cmTC_d46d4.tlog\".
-InitializeBuildStatus:
-  Création de "cmTC_d46d4.dir\Debug\cmTC_d46d4.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d46d4.dir\Debug\\" /Fd"cmTC_d46d4.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-  Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
-  Copyright (C) Microsoft Corporation. Tous droits réservés.
-  
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d46d4.dir\Debug\\" /Fd"cmTC_d46d4.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-  CMakeCXXCompilerABI.cpp
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_d46d4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_d46d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_d46d4.lib" /MACHINE:X64  /machine:x64 cmTC_d46d4.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_d46d4.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_d46d4.exe
-FinalizeBuildStatus:
-  Suppression du fichier "cmTC_d46d4.dir\Debug\cmTC_d46d4.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_d46d4.dir\Debug\cmTC_d46d4.tlog\cmTC_d46d4.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_d46d4.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_949c2.dir\Debug\cmTC_949c2.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_949c2.dir\Debug\cmTC_949c2.tlog\cmTC_949c2.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_949c2.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
@@ -283,44 +245,82 @@ La génération a réussi.
 Temps écoulé 00:00:01.40
 
 
-
-
-Detecting CXX [] compiler features compiled with the following output:
+Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_690db.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_89041.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
 Copyright (C) Microsoft Corporation. Tous droits réservés.
 
-La génération a démarré 07/11/2018 17:24:34.
-Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_690db.vcxproj" sur le noud 1 (cibles par défaut).
+La génération a démarré 07/11/2018 20:30:45.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_89041.vcxproj" sur le noud 1 (cibles par défaut).
 PrepareForBuild:
-  Création du répertoire "cmTC_690db.dir\Debug\".
+  Création du répertoire "cmTC_89041.dir\Debug\".
   Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\".
-  Création du répertoire "cmTC_690db.dir\Debug\cmTC_690db.tlog\".
+  Création du répertoire "cmTC_89041.dir\Debug\cmTC_89041.tlog\".
 InitializeBuildStatus:
-  Création de "cmTC_690db.dir\Debug\cmTC_690db.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+  Création de "cmTC_89041.dir\Debug\cmTC_89041.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_690db.dir\Debug\\" /Fd"cmTC_690db.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_89041.dir\Debug\\" /Fd"cmTC_89041.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
   Copyright (C) Microsoft Corporation. Tous droits réservés.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_690db.dir\Debug\\" /Fd"cmTC_690db.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.cxx
-  feature_tests.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_89041.dir\Debug\\" /Fd"cmTC_89041.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Utilisateur\cmake\cmake-3.12.3-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_690db.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_690db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_690db.lib" /MACHINE:X64  /machine:x64 cmTC_690db.dir\Debug\feature_tests.obj
-  cmTC_690db.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_690db.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_89041.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_89041.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_89041.lib" /MACHINE:X64  /machine:x64 cmTC_89041.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_89041.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_89041.exe
 FinalizeBuildStatus:
-  Suppression du fichier "cmTC_690db.dir\Debug\cmTC_690db.tlog\unsuccessfulbuild".
-  Mise à jour de l'horodatage "cmTC_690db.dir\Debug\cmTC_690db.tlog\cmTC_690db.lastbuildstate".
-Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_690db.vcxproj" terminée (cibles par défaut).
+  Suppression du fichier "cmTC_89041.dir\Debug\cmTC_89041.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_89041.dir\Debug\cmTC_89041.tlog\cmTC_89041.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_89041.vcxproj" terminée (cibles par défaut).
 
 La génération a réussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:01.17
+Temps écoulé 00:00:01.76
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_25013.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 07/11/2018 20:30:48.
+Projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_25013.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "cmTC_25013.dir\Debug\".
+  Création du répertoire "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\".
+  Création du répertoire "cmTC_25013.dir\Debug\cmTC_25013.tlog\".
+InitializeBuildStatus:
+  Création de "cmTC_25013.dir\Debug\cmTC_25013.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25013.dir\Debug\\" /Fd"cmTC_25013.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.cxx
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.15.26732.1 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25013.dir\Debug\\" /Fd"cmTC_25013.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_25013.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_25013.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/CMakeTmp/Debug/cmTC_25013.lib" /MACHINE:X64  /machine:x64 cmTC_25013.dir\Debug\feature_tests.obj
+  cmTC_25013.vcxproj -> C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\Debug\cmTC_25013.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_25013.dir\Debug\cmTC_25013.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_25013.dir\Debug\cmTC_25013.tlog\cmTC_25013.lastbuildstate".
+Génération du projet "C:\Users\Utilisateur\Documents\Opencv_playground\colored_balls\build\CMakeFiles\CMakeTmp\cmTC_25013.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:01.52
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

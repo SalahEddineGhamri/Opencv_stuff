@@ -12,6 +12,7 @@ using namespace cv;
 extern Mat input_img, HSV_img, output_img;
 extern const int max_value_H;
 extern const int max_value;
+extern const String controlWindow;
 extern const String window_capture_name;
 extern const String window_detection_name;
 extern int low_H, low_S, low_V;

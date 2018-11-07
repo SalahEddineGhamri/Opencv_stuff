@@ -14,19 +14,20 @@ int main(){
     resize(input_img, input_img, cv::Size(), 0.5, 0.5);
 
     //create named widows
+    namedWindow( controlWindow, WINDOW_AUTOSIZE);
     namedWindow( window_capture_name, WINDOW_NORMAL);
     namedWindow( window_detection_name, WINDOW_NORMAL);
 
-    resizeWindow(window_capture_name, 300, 300);
-    //resizeWindow(window_detection_name, 300, 300);
+    resizeWindow(window_capture_name, 600, 600);
+    resizeWindow(window_detection_name, 600, 600);
 
     //create a trackbar
-    createTrackbar("Low H", window_detection_name, &low_H, max_value_H, on_low_H_thresh_trackbar);
-    createTrackbar("High H", window_detection_name, &high_H, max_value_H, on_high_H_thresh_trackbar);
-    createTrackbar("Low S", window_detection_name, &low_S, max_value, on_low_S_thresh_trackbar);
-    createTrackbar("High S", window_detection_name, &high_S, max_value, on_high_S_thresh_trackbar);
-    createTrackbar("Low V", window_detection_name, &low_V, max_value, on_low_V_thresh_trackbar);
-    createTrackbar("High V", window_detection_name, &high_V, max_value, on_high_V_thresh_trackbar);
+    createTrackbar("Low H", controlWindow, &low_H, max_value_H, on_low_H_thresh_trackbar);
+    createTrackbar("High H", controlWindow, &high_H, max_value_H, on_high_H_thresh_trackbar);
+    createTrackbar("Low S", controlWindow, &low_S, max_value, on_low_S_thresh_trackbar);
+    createTrackbar("High S", controlWindow, &high_S, max_value, on_high_S_thresh_trackbar);
+    createTrackbar("Low V", controlWindow, &low_V, max_value, on_low_V_thresh_trackbar);
+    createTrackbar("High V", controlWindow, &high_V, max_value, on_high_V_thresh_trackbar);
     
     // convert from BGR to HSV colorspace
     cvtColor(input_img, HSV_img, COLOR_BGR2HSV);

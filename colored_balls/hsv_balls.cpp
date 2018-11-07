@@ -6,6 +6,7 @@ using namespace cv;
 /// H: low=0->high=180, S: low=0->high=255, V: low=0->high=255
 const int max_value_H = 360/2;
 const int max_value = 255;
+const String controlWindow = "Controls";
 const String window_capture_name = "Image";
 const String window_detection_name = "Filtered_image";
 int low_H = 0, low_S = 0, low_V = 0;
@@ -26,35 +27,35 @@ void help()
 void on_low_H_thresh_trackbar(int, void *)
 {
     low_H = min(high_H-1, low_H);
-    setTrackbarPos("Low H", window_detection_name, low_H);
+    setTrackbarPos("Low H", controlWindow, low_H);
 }
 
 void on_high_H_thresh_trackbar(int, void *)
 {
     high_H = max(high_H, low_H+1);
-    setTrackbarPos("High H", window_detection_name, high_H);
+    setTrackbarPos("High H", controlWindow, high_H);
 }
 
 void on_low_S_thresh_trackbar(int, void *)
 {
     low_S = min(high_S-1, low_S);
-    setTrackbarPos("Low S", window_detection_name, low_S);
+    setTrackbarPos("Low S", controlWindow, low_S);
 }
 
 void on_high_S_thresh_trackbar(int, void *)
 {
     high_S = max(high_S, low_S+1);
-    setTrackbarPos("High S", window_detection_name, high_S);
+    setTrackbarPos("High S", controlWindow, high_S);
 }
 
 void on_low_V_thresh_trackbar(int, void *)
 {
     low_V = min(high_V-1, low_V);
-    setTrackbarPos("Low V", window_detection_name, low_V);
+    setTrackbarPos("Low V", controlWindow, low_V);
 }
 
 void on_high_V_thresh_trackbar(int, void *)
 {
     high_V = max(high_V, low_V+1);
-    setTrackbarPos("High V", window_detection_name, high_V);
+    setTrackbarPos("High V", controlWindow, high_V);
 }

@@ -1,0 +1,3 @@
+C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/colored_balls_app.dir
+C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Utilisateur/Documents/Opencv_playground/colored_balls/build/CMakeFiles/ZERO_CHECK.dir

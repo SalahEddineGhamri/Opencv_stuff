@@ -46,6 +46,8 @@ def getPen():
     r = y1 if y1 < y2 else y2
     trackWindow = (c, r, w, h)
     Pen = clone[r:r+h, c:c+w]
+    #cv2.imwrite('Pen.jpg', Pen)
+    #cv2.imwrite('frame.jpg', frame)
     hsvPen =  cv2.cvtColor(Pen, cv2.COLOR_BGR2HSV)
     mask = cv2.inRange(hsvPen, np.array([0, 0, 0]), np.array([180,255,255]))
     PenHist = cv2.calcHist( [hsvPen], [0], mask, [180], [0,180])

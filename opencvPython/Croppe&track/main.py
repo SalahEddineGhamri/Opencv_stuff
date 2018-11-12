@@ -4,6 +4,8 @@ import functions
 
 #read video stream
 cap = cv2.VideoCapture(0)
+print cap.grab()
+
 cv2.namedWindow("Stream")
 cv2.setMouseCallback("Stream", functions.selectCrop)
 # Setup the termination criteria, either 10 iteration or move by atleast 1 pt
